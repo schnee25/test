@@ -1,13 +1,17 @@
 # 「Wonder Scrum」
 
 ## 概要
-WonderScrum専用のボイラープレート Rails6（REST API）+ Docker + PostgreSQL + Graphql
+
+WonderScrum 専用のボイラープレート Rails6（REST API）+ Docker + PostgreSQL + Graphql
 
 ## 開発環境構築
 
 ### 環境構築する手順
-1. .envファイルを作成
-2. .env.sampleの中身を.envファイルにコピペする
-3. DATABASE_NAME=example_developmentをDATABASE_NAME=wonder-scrum_developmentに変更する
-4. database.ymlの[example]をwonder-scrumに変更する
-5. docker-compose up -d --buildコマンドを叩いて、完了
+
+1. .env ファイルを作成
+2. .env.sample の中身を.env ファイルにコピペする
+3. DATABASE_NAME=example_development を DATABASE_NAME=wonder-scrum_development に変更する
+4. database.yml の[example]を wonder-scrum に変更する
+5. docker-compose up -d --build コマンドを叩いて、完了
+
+ルビーわかんない！
